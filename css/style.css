@@ -1,17 +1,102 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-size: 24px; */
+    font-size: 24px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+/* inizio css .container  */
 .container{
-    background-color: rgb(204, 197, 197);
+    background-color: rgb(245, 245, 245);
 }
+/* inizio header  */
 header{
     background-color: white;
     padding: 20px;
+    height: 100px;
 }
 header>h1{
     font-size: 50px;
     display: inline;
+    line-height: 50px;
+}
+/* inizio navbar */
+nav{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+nav>.button{
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+}
+nav>.blue{
+    background-color: #008CBA; /* azzurro */
+    color: white;
+}
+nav>.white{
+    color: rgb(121, 114, 114);
+    background-color: white;
+    border-color: rgb(121, 114, 114);
+}
+/* inizio main */
+main{
+    padding: 40px;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+/* nessun marcatore per le lista  */
+ul {
+    list-style-type: none;
+}
+section>div{
+    display: inline;
+}
+/* spunte */
+div.segno{
+    border: solid 1px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+div.spunta{
+    color: rgb(26, 180, 26);
+}
+div.croce{
+    color: rgb(230, 18, 18);
+}
+/* tipi di task */
+.type{
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+}
+.editorial{
+    background-color: #008CBA;
+}
+.recruting{
+    background-color: rgb(32, 178, 117);
+}
+.mobile{
+    background-color: rgb(255, 145, 0);
+}
+.website{
+    background-color: pink;
 }
