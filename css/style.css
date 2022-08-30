@@ -56,15 +56,15 @@ main{
     margin-top: 5px;
 }
 /* nessun marcatore per le lista  */
-ul {
+ ul {
     list-style-type: none;
-}
-li{
+} 
+ li{ 
     padding: 20px;
 }
 section>div, h4{
-    display: inline;
-}
+    display: inline-block;
+}  
 /* spunte */
 div.segno{
     border: solid 1px;
