@@ -62,9 +62,10 @@ main{
 /* nessun marcatore per le lista  */
  ul {
     list-style-type: none;
+    padding-bottom: 20px;
 } 
  li{ 
-    padding: 10px;
+    padding-top: 20px;
 }
 li>div, h4{
     display: inline-block;
