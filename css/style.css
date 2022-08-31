@@ -15,10 +15,14 @@ header{
     padding: 20px;
     height: 100px;
 }
+header>img{
+    vertical-align: middle;
+}
 header>h1{
     font-size: 50px;
     display: inline;
     line-height: 50px;
+    vertical-align: middle;
 }
 /* inizio navbar */
 nav{
