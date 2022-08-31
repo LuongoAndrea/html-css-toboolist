@@ -37,7 +37,7 @@ nav>.button{
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
-        margin: 20px 10px;
+        margin: 20px 5px;
         cursor: pointer;
         border-radius: 8px;
         border: 1px solid #008CBA;
@@ -72,12 +72,13 @@ li>div, h4{
 /* spunte */
 div.segno{
     border: solid 1px;
-    width: 20px;
-    height: 20px; 
+    width: 30px;
+    height: 30px; 
     font-size: 20px;
-    border-radius: 100%;
+    border-radius: 50%;
     margin-right: 5px;
-    line-height: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 div.spunta{
     color: rgb(26, 180, 26);
